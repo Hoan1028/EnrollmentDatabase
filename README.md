@@ -23,7 +23,7 @@ The system prints an error message if there is a double enrollment.
 5. **Standing Requirement:** A student's standing must be equal or higher than the standing requirement required by the course.
 6. **Disqualified_Student:** When a non-freshman(standing other than 1) student's GPA is lower than 2.0, the student is now in Disqualified status.
 A Disqualified student cannot enroll in any course.
-7. **Capacity:** Each class has a acpacity limit. This student can enroll only when after his/her enrollment and class size is kept within the capacity limit.
+7. **Capacity:** Each class has a capacity limit. This student can enroll only when after his/her enrollment and class size is kept within the capacity limit.
 8. **Wait List:** If this student has fulfilled all requirements but the class is full, then add his/her record to the waiting list.
 The system then prints "Student number xxxx is now on the waiting list for class number xxxx."
 9. **Repeat_waitlist:** If the student is already on the waiting list for this CallNum, you should not place the student on the wiating list again. 
