@@ -37,14 +37,14 @@ Print a message to let the student know.
 
 This procedure is to DROP a student from a class.
 1. **Valid student number and valid call number:** If the student number or call number is invalid, the system would print an error message and does not proceed with the following checks.
-2. **Not Enrolled:** If the student is not enrolled in this class, we cannot drop them. THe system prints an error msg.
+2. **Not Enrolled:** If the student is not enrolled in this class, we cannot drop them. The system prints an error msg.
 3. **Already Graded:** If a grade is already assigned in this class, the student cannot drop. The system prints an error msg.
-4. **Drop the Student:** To drop a student from a course, system updats the GRADE of the enrollment to 'W'. A confirmation message is printed.
+4. **Drop the Student:** To drop a student from a course, system updates the GRADE of the enrollment to 'W'. A confirmation message is printed.
 5. Once a student drops a course, your program should proceed to check if there are any students on the waiting list. If there is, you should move the student who requested the enrollment the earliest to the enrollment list.
  - 5a. Note that a check on all enrollment requirements should be performed in this new enrollment.
  - 5b. If this new student is enrolled, he/she should be removed from the waiting list.
  - 5c. If this student cannot enroll for any reason (for instance, he/she now has too many units, etc), his/her record
- should remain on the waiting list and you shuld attempt to enroll the enxt student on the waiting list. Your program continues until either one student is enrolled or there is no (qualified) student on the waiting list.
+ should remain on the waiting list and you shuld attempt to enroll the next student on the waiting list. Your program continues until either one student is enrolled or there is no (qualified) student on the waiting list.
 ## Built With
 * [Oracle Database 11g](https://www.oracle.com/database/) - Relational Database Management System used to run and test project.
 * [Sublime Text](https://www.sublimetext.com/) - Text Editor used to write all code in this project.
