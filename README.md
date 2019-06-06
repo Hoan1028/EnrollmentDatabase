@@ -45,6 +45,12 @@ This procedure is to DROP a student from a class.
  - 5b. If this new student is enrolled, he/she should be removed from the waiting list.
  - 5c. If this student cannot enroll for any reason (for instance, he/she now has too many units, etc), his/her record
  should remain on the waiting list and you shuld attempt to enroll the next student on the waiting list. Your program continues until either one student is enrolled or there is no (qualified) student on the waiting list.
+ 
+## Demo
+<p align="center">
+  <img src="https://github.com/Hoan1028/EnrollmentDatabase/blob/master/enrolldbgif.gif">
+</p>
+
 ## Built With
 * [Oracle Database 11g](https://www.oracle.com/database/) - Relational Database Management System used to run and test project.
 * [Sublime Text](https://www.sublimetext.com/) - Text Editor used to write all code in this project.
